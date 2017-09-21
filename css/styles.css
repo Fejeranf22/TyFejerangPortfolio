@@ -1,4 +1,15 @@
+/*the site link im modeling from :http://wrapbootstrap.com/preview/WB021609D*/
 * {
   margin-left: 0;
   padding:0;
+}
+
+.colsTest {
+  background-color: grey;
+  border: 1px solid white;
+}
+
+.container{
+  background-color: grey;
+  
 }
