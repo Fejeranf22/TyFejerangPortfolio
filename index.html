@@ -10,7 +10,8 @@
     <title>Ty Fejerang Portfolio</title>
 
 <!-- the links to the liberaries i am using -->
-
+    <!-- the fonts i am using -->
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- my css styles -->
@@ -20,23 +21,45 @@
 
           <!-- add styles and color to your navigaton menu -->
   </head>
-  <body>
-
-    <div class="navbar navbar-default">
-    <div class="navbar-header">
-      <a class="navbar-brand"><strong>Company</strong> Name</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-    <div class="nav navbar-nav navbar-right">
-
+  <body style="background: url(https://static.pexels.com/photos/7174/summer-grass.jpg)">
+    <div id="main-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class=" navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-div-bttn" aria-expanded="false" name="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand nav-items"><i class="fa fa-sun-o" aria-hidden="true"></i>Ty Fejerang</a>
+        </div>
+        <div id="collapse-div-bttn" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right row">
+            <li class="col-sm-3"><a href="#" class="nav-items"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a></li>
+            <li class="col-sm-3"><a href="#" class="nav-items"><i class="fa fa-plug" aria-hidden="true"></i>Connect</a></li>
+            <li class="col-sm-3"><a href="#" class="nav-items"><i class="fa fa-telegram" aria-hidden="true"></i> Contact</a></li>
+            <li class="col-sm-3"><a href="#" class="nav-items"><i class="fa fa-folder-open" aria-hidden="true"></i>Projects</a></li>
+          </ul>
+      </div>
     </div>
   </div>
   <!-- the welcome picture right under the nav bar -->
-  <div class="jumbotron" id="welcomePic">
-
+  <div class="jumbotron" id="welcomePic" >
+    <div class="container">
+      <div class="rows">
+        <div class="text col-md-6">
+          <h1>Hafa Adai,<br>
+          Welcome to my page.</h1>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          Why do we use it?
+          </p>
+        </div>
+        <div class="">
+        <a href="#contact" class="btn btn-default btn-lg active col-md-6" role="button">Link</a>
+        <!-- <input class="btn btn-default" type="button" data-target="#contact" value=""> -->
+        </div>
+      </div>
+    </div>
   </div>
   <!-- the second section -->
   <div class="container">
@@ -51,8 +74,10 @@
 
   </div>
   <!-- the div #5 ? -->
-  <div class="container">
+  <div id="contact"class="container">
+    <div class="box">
 
+    </div>
   </div>
   <!-- the contact form at the bottom -->
   <div class="container">
@@ -88,6 +113,9 @@
       </div>
     </div>
   </div>
+  <!-- the font awesome link -->
+  <script src="https://use.fontawesome.com/b2e404e159.js"></script>
+  <!-- the jquery link -->
   <script type="js/jquery.js"></script>
 
   </body>

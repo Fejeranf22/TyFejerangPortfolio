@@ -10,6 +10,36 @@
 }
 
 .container{
-  background-color: grey;
-  
+  background-color: transperent;
+
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: 0 0 20px 0 rgba(0, 0,0, 0.3);
+}
+
+/*the contact button in nav*/
+.nav-items{
+  width: 119px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 25px;
+}
+
+.navbar-brand {
+  width: 160px;
+}
+
+
+.box{
+height: 50px;
+width: 50px;
+background-color: red;
+border: 2px solid black;
+}
+
+#welcomePic {
+  "background: url(https://static.pexels.com/photos/7174/summer-grass.jpg)";
 }
