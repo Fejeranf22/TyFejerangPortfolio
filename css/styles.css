@@ -41,5 +41,16 @@ border: 2px solid black;
 }
 
 #welcomePic {
-  "background: url(https://static.pexels.com/photos/7174/summer-grass.jpg)";
+  color: white;
+  text-align: center;
+  background-image: url("../img/IMG_2770.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+}
+/*the connect section*/
+.connect {
+  height: 100px;
+  width: 100%;
+  background-color: grey;
 }
