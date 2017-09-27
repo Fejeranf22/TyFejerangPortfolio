@@ -4,6 +4,12 @@
   padding:0;
 }
 
+/*body{
+  background-image: url("../img/sunrise_burst_city.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
 .colsTest {
   background-color: grey;
   border: 1px solid white;
@@ -54,3 +60,9 @@ border: 2px solid black;
   width: 100%;
   background-color: grey;
 }
+
+/*end of the connect section*/
+#clear-panel{
+  height: 100px;
+  backface-visibility: hidden;
+}*/
