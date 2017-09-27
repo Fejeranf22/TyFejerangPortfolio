@@ -58,11 +58,21 @@ border: 2px solid black;
 .connect {
   height: 100px;
   width: 100%;
-  background-color: grey;
+  background-color: blue;
+}
+
+.iWrapper{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.circles{
+  border: 1px solid grey;
+  border-radius: 15px;
+  padding:10px;
+  text-align: center;
+  font-size: 60px;
 }
 
 /*end of the connect section*/
-#clear-panel{
-  height: 100px;
-  backface-visibility: hidden;
-}*/
